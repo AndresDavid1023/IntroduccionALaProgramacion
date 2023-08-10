@@ -22,7 +22,7 @@
 #Ejercicio 6:
 #n = int(input("Entero positivo: "))
 #suma = n*(n+1)/2
-#print("La suma de los primeros numeros enteros desde 1 hasta " +str(n) + "es" +str(suma))
+#print("La suma de los primeros numeros enteros desde 1 hasta " +str(n) + " " + "es " +str(suma))
 
 #Ejercicio 7:
 #peso = input("¿Cual es tu peso? ")
@@ -42,9 +42,34 @@
 #print("Capital obtenida: " + str(round(cantidad * (interes/100+1) ** años, 2)))
 
 #Ejercicio 10:
-peso_payaso = 112
-peso_muñeca = 75
-payasos = int(input("Numero de payasos: "))
-muñecas = int(input("Numero de muñecas: "))
-peso_total = peso_payaso * payasos + peso_muñeca * muñecas
-print("El peso total del paquete es" + str(peso_total))
+#peso_payaso = 112
+#peso_muñeca = 75
+#payasos = int(input("Numero de payasos: "))
+#muñecas = int(input("Numero de muñecas: "))
+#peso_total = peso_payaso * payasos + peso_muñeca * muñecas
+#print("El peso total del paquete es " + str(peso_total))
+
+#CLASE #3-----------------------------------------------------------
+
+#Ejercicio 1:
+#n=0
+#n=int(input("Ingrese un numero entero: "))
+#suma=(n*(n+1)/2)
+#if suma > 20:
+#  print("La suma de todos los numeros enteros desde 1 hasta " + str(n) + " " + "es" + " " + str(suma))
+#  print("¡Que gran numero!")
+#else:
+#  print("La suma de todos los numeros enteros desde 1 hasta " + str(n) + "es" + " " + str(suma))
+
+#Ejercicio 2:
+n=0
+m=0
+c=0
+r=0
+n=int(input("Ingrese el dividendo: "))
+m=int(input("Ingrese el divisor: "))
+division=(n//m)
+c=(n//m)
+print(str(n) + " dividido " + str(m) + " da " + str(division) + " y sobra " + str(int(n) % int(m)))
+if c > 1:
+  print
