@@ -114,7 +114,74 @@
     #print("Contenedor no enviado")
 
 #Ejercicio 5:
-d=0
-d=float(input("¿Cuanto dinero deposito en la cuenta?: "))
-if d == 0 and d < 1000000:
-  a=(d+)
+#d=0
+#d=float(input("¿Cuanto dinero deposito en la cuenta?: "))
+#if d == 0 and d < 1000000:
+  #a=(d+)
+
+#CLASE #4 -------------------------------------------------------------------
+
+#Ejercicio 1:
+#n1=int(input("Ingrese el numero uno: "))
+#n2=int(input("Ingrese el numero dos: "))
+#def suma(a, b): 
+  #y=a+b
+  #return y
+#z=suma(n1, n2)
+#print(z)
+
+#Ejercicio 2:
+
+#n1=int(input("Ingrese un valor: "))
+#n2=int(input("Ingrese otro valor: "))
+#def resta(a, b):
+  #res=a-b
+  #return resta
+#r=resta(n1, n2)
+#print(r)
+
+#Ejercicio 3:
+
+#n1=int(input("Escriba un numero: "))
+#n2=int(input("Escriba otro numero: "))
+#def multiplicacion(a, b):
+  #m=a*b
+  #return m
+#mult=multiplicacion(n1, n2)
+#print(mult)
+
+#Ejercicio 4:
+
+#n1=int(input("Ingrese el dividendo: "))
+#n2=int(input("Ingrese el divisor: "))
+#def division(a, b):
+  #div=a/b
+  #return div
+#d=division(n1, n2)
+#print(d)
+
+#Ejercicio 5:
+
+v1=0
+v2=0
+usuario=input("¿Que desea hacer?: ")
+v1=int(input("Ingrese un valor: "))
+v2=int(input("Ingrese otro valor: "))
+suma=v1+v2
+resta=v1-v2
+multiplicacion=v1*v2
+division=v1/v2
+def calculadora(usuario):
+  respuesta=usuario
+  return respuesta
+r=calculadora(usuario)
+if r=="Suma":
+  suma=v1+v2
+if r=="Resta":
+  resta=v1-v2
+if r=="Multiplicacion":
+  multiplicacion=v1*v2
+if r=="division":
+  division=v1/v2
+else:
+  print("Respuesta no valida")
