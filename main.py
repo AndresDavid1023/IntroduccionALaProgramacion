@@ -162,26 +162,79 @@
 
 #Ejercicio 5:
 
-v1=0
-v2=0
-usuario=input("¿Que desea hacer?: ")
-v1=int(input("Ingrese un valor: "))
-v2=int(input("Ingrese otro valor: "))
-suma=v1+v2
-resta=v1-v2
-multiplicacion=v1*v2
-division=v1/v2
-def calculadora(usuario):
-  respuesta=usuario
-  return respuesta
-r=calculadora(usuario)
-if r=="Suma":
-  suma=v1+v2
-if r=="Resta":
-  resta=v1-v2
-if r=="Multiplicacion":
-  multiplicacion=v1*v2
-if r=="division":
-  division=v1/v2
-else:
-  print("Respuesta no valida")
+#v1=0
+#v2=0
+#usuario=input("¿Que desea hacer?: ")
+#v1=int(input("Ingrese un valor: "))
+#v2=int(input("Ingrese otro valor: "))
+#suma=v1+v2
+#resta=v1-v2
+#multiplicacion=v1*v2
+#division=v1/v2
+#def calculadora(usuario):
+#  respuesta=usuario
+#  return respuesta
+#r=calculadora(usuario)
+#if r=="Suma":
+#  suma=v1+v2
+#if r=="Resta":
+#  resta=v1-v2
+#if r=="Multiplicacion":
+#  multiplicacion=v1*v2
+#if r=="division":
+#  division=v1/v2
+#else:
+#  print("Respuesta no valida")
+
+#Ejercicio 6:
+
+#def intereses(inv):
+  #d=inv
+  #if (d>0 and d<1000000):
+    #return 2
+  #elif(d>=1000000 and d<2000000):
+    #return 5
+  #else:
+    #return 7
+
+#def calbalance(int, inv):
+  #n=int
+  #d=inv
+  #return round((d*(1+(n/100))),2)
+
+#def ctaAhorro():
+  #inversion,intereses,b1,b2,b3=0.0
+  #inversion=float(input("Ingrese el valor de la inversion: "))
+  #interes=intereses(inversion)
+  #b1=calbalance(interes,inversion)
+  #b2=calbalance(interes,b1)
+  #b3=calbalance(interes,b2)
+  #print("Balance año 1: " + str(b1) + " Balance año 2: " + str(b2) + " Balance año 3: " + str(b3))
+
+#ctaAhorro()
+
+#CLASE #5----------------------------------------------------------------
+
+def areaTriangulo(b, a):
+  return(b*a)/2
+
+def areaCuadrado(bc, ac):
+  return bc*ac
+
+def areaCirculo(r):
+  return(3.14169*(r**2))
+
+def areaFig():
+  area=0.0
+  figura=""
+  figura=input("Escriba la figura a la que se le desea calcular el area: ")
+
+if (figura.lower()=="triangulo"):
+  base=0.0
+  altura=0.0
+  base=float(input("Ingrese la base: "))
+  altura=float(input("Ingrese la altura: "))
+  area=areaTriangulo(base, altura)
+  print("El area del triangulo es: ", area)
+
+areaFig()
