@@ -215,26 +215,45 @@
 
 #CLASE #5----------------------------------------------------------------
 
-def areaTriangulo(b, a):
-  return(b*a)/2
+#def areaTriangulo(b, a):
+ # return(b*a)/2
 
-def areaCuadrado(bc, ac):
-  return bc*ac
+#def areaCuadrado(bc, ac):
+  #return bc*ac
 
-def areaCirculo(r):
-  return(3.14169*(r**2))
+#def areaCirculo(r):
+  #return(3.14169*(r**2))
 
-def areaFig():
-  area=0.0
-  figura=""
-  figura=input("Escriba la figura a la que se le desea calcular el area: ")
+#def areaFig():
+  #area=0.0
+  #figura=""
+  #figura=input("Escriba la figura a la que se le desea calcular el area: ")
 
-if (figura.lower()=="triangulo"):
-  base=0.0
-  altura=0.0
-  base=float(input("Ingrese la base: "))
-  altura=float(input("Ingrese la altura: "))
-  area=areaTriangulo(base, altura)
-  print("El area del triangulo es: ", area)
+#if (figura.lower()=="triangulo"):
+  #base=0.0
+  #altura=0.0
+  #base=float(input("Ingrese la base: "))
+  #altura=float(input("Ingrese la altura: "))
+  #area=areaTriangulo(base, altura)
+  #print("El area del triangulo es: ", area)
 
-areaFig()
+#areaFig()
+
+#Ejercicio 2
+
+def maximo(a, b):
+  if x>y:
+    return a
+  else:
+    return b
+
+def minimo (a, b):
+  if x>y:
+    return a
+  else:
+    return b
+
+#programa principal
+x=int(input("Un numero: "))
+y=int(input("Otro numero: "))
+print(maximo(x-3, minimo(x+2, y-5)))
