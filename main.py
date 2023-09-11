@@ -172,44 +172,42 @@
 #multiplicacion=v1*v2
 #division=v1/v2
 #def calculadora(usuario):
-#  respuesta=usuario
-#  return respuesta
+  #respuesta=usuario
+  #return respuesta
 #r=calculadora(usuario)
 #if r=="Suma":
-#  suma=v1+v2
+  #suma=v1+v2
 #if r=="Resta":
-#  resta=v1-v2
+  #resta=v1-v2
 #if r=="Multiplicacion":
-#  multiplicacion=v1*v2
+  #multiplicacion=v1*v2
 #if r=="division":
-#  division=v1/v2
+  #division=v1/v2
 #else:
-#  print("Respuesta no valida")
+  #print("Respuesta no valida")
 
 #Ejercicio 6:
 
 #def intereses(inv):
-  #d=inv
-  #if (d>0 and d<1000000):
-    #return 2
-  #elif(d>=1000000 and d<2000000):
-    #return 5
-  #else:
-    #return 7
+#  d=inv
+#  if (d>0 and d<1000000):
+#    return 2
+#  elif(d>=1000000 and d<2000000):
+#    return 5
+#  else:
+#    return 7
 
 #def calbalance(int, inv):
-  #n=int
-  #d=inv
-  #return round((d*(1+(n/100))),2)
+#  n=int
+#  d=inv
+#  return round((d*(1+(n/100))),2)
 
 #def ctaAhorro():
-  #inversion,intereses,b1,b2,b3=0.0
-  #inversion=float(input("Ingrese el valor de la inversion: "))
-  #interes=intereses(inversion)
-  #b1=calbalance(interes,inversion)
-  #b2=calbalance(interes,b1)
-  #b3=calbalance(interes,b2)
-  #print("Balance año 1: " + str(b1) + " Balance año 2: " + str(b2) + " Balance año 3: " + str(b3))
+#  interes=intereses(inversion)
+#  b1=calbalance(interes,inversion)
+#  b2=calbalance(interes,b1)
+#  b3=calbalance(interes,b2)
+#  print("Balance año 1: " + str(b1) + " Balance año 2: " + str(b2) + " Balance año 3: " + str(b3))
 
 #ctaAhorro()
 
@@ -239,21 +237,41 @@
 
 #areaFig()
 
-#Ejercicio 2
+#CLASE 6 ------------------------------------------------------------
 
-def maximo(a, b):
-  if x>y:
-    return a
-  else:
-    return b
+#Ejercicio 1:
 
-def minimo (a, b):
-  if x>y:
-    return a
-  else:
-    return b
+#A = 0
+#while A < 10:
+#  print(A)
+#  A=A+1
 
-#programa principal
-x=int(input("Un numero: "))
-y=int(input("Otro numero: "))
-print(maximo(x-3, minimo(x+2, y-5)))
+#Ejercicio 2:
+
+#def suma():
+#  a=int(input("Ingrese un valor: "))
+#  b=int
+
+#def Calculadora():
+#  Menu()
+#  opcion=0
+
+#while opcion != 5:
+
+#  opcion = int(input("Seleccione opcion\n"))
+
+#  if (opcion==1):
+#    print("La suma es:", suma())
+#  elif(opcion==2):
+#    print("La resta es:", resta())
+#  elif(opcion==3):
+#    print("La multiplicacion es:", multiplicacion())
+  #elif(opcion==4):
+  #  print("La division es:", division())
+  #elif(opcion==5):
+  #  print("Gracias por usar la calculadora! bye!.")
+    #break
+
+  #else:
+  #  print("Opcion invalida, intente de nuevo")
+
