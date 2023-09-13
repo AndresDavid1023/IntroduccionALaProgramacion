@@ -275,3 +275,52 @@
   #else:
   #  print("Opcion invalida, intente de nuevo")
 
+#CLASE DE FOR --------------------------------------------------------
+
+#Ejercicio 1:
+
+#import random
+
+#def adivina():
+
+#  numero_secreto = random.randint(1, 100)
+#  adivinado = False
+
+#  while not adivinado:
+#    intento = int(input("Adivina un numero: "))
+
+#    if intento == numero_secreto:
+#      print("Felicitacion!!! Ha adivinado el numero.")
+#      adivinado = True
+
+#    elif intento < numero_secreto:
+#      print("El numero es mayor.")
+
+#    else:
+#      print("El numero es menor.")
+
+#adivina()
+
+#Ejercicio 2:
+
+#def numero():
+#  usuario = int(input("Escriba un numero: "))
+
+#  for multiplicador in range (1, 11):
+#    operacion = usuario * multiplicador
+#    print(usuario, "x", multiplicador, "=", operacion)
+
+#numero()
+
+#Ejercicio 3:
+
+def factorial():
+  numero = int(input("Ingrese un numero: "))
+  factorial = 1
+
+  for i in range(1, numero + 1):
+    factorial *= i
+
+  print("El factorial de", numero, "es", factorial)
+
+factorial()
