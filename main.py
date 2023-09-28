@@ -314,13 +314,76 @@
 
 #Ejercicio 3:
 
-def factorial():
-  numero = int(input("Ingrese un numero: "))
-  factorial = 1
+#def factorial():
+#  numero = int(input("Ingrese un numero: "))
+#  factorial = 1
 
-  for i in range(1, numero + 1):
-    factorial *= i
+ # for i in range(1, numero + 1):
+ #   factorial *= i
 
-  print("El factorial de", numero, "es", factorial)
+#  print("El factorial de", numero, "es", factorial)
 
-factorial()
+#factorial()
+
+#LISTAS -----------------------------------------------------------------
+
+#def lista1():
+  #lista=list(("Boa", "Cactus", "Cali", "Cafe"))
+  #print(lista)
+
+#lista1()
+
+#def lista2():
+ #lista=list((("Serpiente", "Camaleon", "Avestruz")) + (("Cali", "Barranquilla", "Pereira")))
+ #print(lista)
+
+#lista2()
+
+#def lista3():
+  #lista=list(("Cholado", "Champus", "Lulada"))
+  #print(lista*3)
+
+#lista3()
+
+#def lista4():
+  #lista=list(("Gato", "Perro", "Gallina"))
+  #lista.append("Pato")
+  #print(lista)
+
+#lista4()
+
+#def lista5():
+  #lista=list(("Gato", "Perro", "Loro"))
+  #index=lista.index("Perro")
+  #print(index)
+
+#lista5()
+
+#def lista6():
+  #lista=["Perro", "Gato", "Loro"]
+  #lista.remove("Perro")
+  #print(lista)
+
+#lista6()
+
+#def lista7():
+  #lista=list(("Perro", "Gato", "Loro", "Caballo"))
+  #lista.sort()
+  #print(lista)
+
+#lista7()
+
+#def lista8():
+  #lista=list(("Gato", "Perro", "Caballo", "Girafa"))
+  #lista.clear()
+  #print(lista)
+
+#lista8()
+
+#def lista9():
+  #lista=list(("Gato", "Perro", "Caballo", "Girafa"))
+  #lista.copy()
+  #print(lista)
+
+#lista9()
+
